@@ -198,7 +198,7 @@ class _CupertinoControlsState extends State<CupertinoControls>
         child: ClipRRect(
           borderRadius: BorderRadius.circular(10.0),
           child: BackdropFilter(
-            filter: ui.ImageFilter.blur(sigmaX: 10.0),
+            filter: ui.ImageFilter.blur(),//sigmaX: 10.0),
             child: Container(
               height: barHeight,
               padding: EdgeInsets.only(
@@ -300,7 +300,7 @@ class _CupertinoControlsState extends State<CupertinoControls>
         child: ClipRRect(
           borderRadius: BorderRadius.circular(10.0),
           child: BackdropFilter(
-            filter: ui.ImageFilter.blur(sigmaX: 10.0),
+            filter: ui.ImageFilter.blur(),//sigmaX: 10.0),
             child: Container(
               color: backgroundColor,
               child: Container(
